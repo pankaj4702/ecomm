@@ -30,6 +30,9 @@ require __DIR__.'/auth.php';
 Route::get('/about', function () {
     return Inertia::render('About');
 });
+Route::get('login',function(){
+    dd('login');
+});
 
 
 

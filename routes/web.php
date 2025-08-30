@@ -33,6 +33,9 @@ Route::get('/about', function () {
 Route::get('login',function(){
     dd('login');
 });
+Route::get('logout',function(){
+    dd('logout');
+});
 
 
 
